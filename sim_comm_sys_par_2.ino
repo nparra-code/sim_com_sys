@@ -79,6 +79,7 @@ void loop() {
     Serial.print("Transmission done! Took: ");
     Serial.print((millis() - startTime)/1000);
     Serial.println(" s.");
+    blinkLeds(6, 10);
   }
 }
 
